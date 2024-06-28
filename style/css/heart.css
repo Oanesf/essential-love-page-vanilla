@@ -1,0 +1,112 @@
+.sectHeartCont {
+    background: #0d0d0d;
+    /* height: 50vh; */
+    /* width: 100%; */
+    display: flex;
+
+
+}
+
+
+.heartCont {
+    background: #0d0d0d;
+    height: 45vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/collage3.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.MoreCont {
+    background: #0d0d0d;
+    height: 45vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/collage5.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.sectHeart {
+    background: #0d0d0d;
+    width: 90%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    border: 2px solid #fafafa10;
+    border-radius: 10px;
+    box-shadow: 10px 100px 100px solid #000;
+}
+
+.sectHeart h2 {
+    font-size: 2.2rem;
+    color: #fff;
+    font-weight: 500;
+    /* margin-bottom: 20px; */
+    text-align: center;
+}
+
+.sectHeart p {
+    font-size: 0.9rem;
+    color: #d6d6d6;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 12px;
+}
+
+/* ____________________________________ */
+
+@media screen and (max-width: 900px) {
+    .sectHeartCont {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .sectHeartCont {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .heartCont {
+        height: 60vh;
+        width: 50%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/collage4.png);
+    }
+
+    .MoreCont {
+        height: 60vh;
+        width: 50%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/collage6.png);
+    }
+
+    .sectHeart {
+        background: #111;
+        width: 70%;
+    }
+
+    .sectHeart h2 {
+        font-size: 2.5rem;
+    }
+
+    .sectHeart p {
+        font-size: 1.1rem;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}

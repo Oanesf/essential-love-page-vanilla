@@ -1,0 +1,24 @@
+.chatCont {
+    background: #0d0d0d;
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../img/collage.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+
+
+@media only screen and (min-width: 950px) {
+    .chatCont {
+        height: 60vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../img/collage2.png);
+
+    }
+
+}

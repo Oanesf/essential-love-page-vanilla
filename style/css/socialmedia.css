@@ -1,0 +1,146 @@
+.cont-3 {
+    background: #111;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin: 40px 0; */
+}
+
+.cont-3 h2 {
+    padding-top: 20px;
+    font-size: 2.2rem;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cont-3 p {
+    font-size: 0.9rem;
+    color: #d6d6d6;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 12px;
+}
+
+/* --------------- */
+
+.cont-3 .card {
+    position: relative;
+    width: 220px;
+    height: 320px;
+    margin: 20px;
+    overflow: hidden;
+    box-sizing: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-3 .card .imgBx img {
+    width: 220px;
+    height: 320px;
+    object-fit: cover;
+}
+
+.cont-3 .card .contentcard {
+    position: absolute;
+    bottom: -160px;
+    /* bottom: 0px; */
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    flex-direction: column;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(111, 111, 111, 0.2);
+    transition: bottom 0.5s;
+    background-color: #222222be;
+}
+
+.cont-3 .card:hover .contentcard {
+    bottom: 0;
+}
+
+.cont-3 .card .contentcard .contentBx h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 15px;
+    line-height: 1.1em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.cont-3 .card:hover .contentcard .contentBx h3 {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.cont-3 .card .contentcard .sci {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+}
+
+.cont-3 .card .contentcard .sci li {
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.cont-3 .card:hover .contentcard .sci li {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+/* 
+.cont-3 .contentcard .contentcard .sci li a .social1{
+    height: 30px;
+    width:  30px;   
+} */
+
+.social1 {
+    height: 55px;
+    width: 55px;
+}
+
+@media screen and (max-width: 750px) {
+    .cont-3 .card {
+        width: 170px;
+        height: 280px;
+        margin: 5px;
+        border-radius: 15px;
+    }
+
+    .cont-3 .card .imgBx img {
+        width: 170px;
+        height: 280px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .cont-3 h2 {
+        font-size: 2.5rem;
+    }
+
+    .cont-3 p {
+        font-size: 1.1rem;
+
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}

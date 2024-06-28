@@ -1,0 +1,133 @@
+/* ___________________________________ */
+.content-2 {
+    background: #111;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-2 h2 {
+    font-size: 2.2rem;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content-2 p {
+    font-size: 0.9rem;
+    color: #d6d6d6;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 12px;
+}
+
+/* _____ dating _____ */
+
+.contet-dating {
+    width: auto;
+    height: auto;
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    position: relative;
+    width: 250px;
+    transition: all .3s ease;
+    /* border: 7px solid #333; */
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+article img:first-child {
+    box-shadow: 0 60px 60px -60px rgba(149, 0, 255, 0.5);
+    border-radius: 7px;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+article img:last-child {
+    position: absolute;
+    width: 250px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(25%);
+    transition: .3s ease;
+    opacity: 0;
+}
+
+article:hover {
+    transform: perspective(250px) rotateX(7deg) translateY(-5%) translateZ(0);
+}
+
+article::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom,
+            transparent 10%,
+            rgba(17, 17, 17, 0.5) 50%,
+            rgba(0, 0, 0) 90%);
+    opacity: 0;
+    transition: all .3s ease;
+    border-radius: 7px;
+
+}
+
+article:hover::before {
+    opacity: 1;
+    transform: translateY(10%);
+}
+
+article:hover img:last-child {
+    opacity: 1;
+    transform: translateY(10%);
+}
+
+@media screen and (max-width: 750px) {
+    .contet-dating {
+        width: auto;
+        height: auto;
+        gap: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    article {
+        width: 170px;
+    }
+
+    article img:last-child {
+        width: 170px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .content-2 h2 {
+        font-size: 2.5rem;
+
+    }
+
+    .content-2 p {
+        font-size: 1.1rem;
+
+        padding-left: 20%;
+        padding-right: 20%;
+
+    }
+
+}
