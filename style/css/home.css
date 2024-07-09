@@ -8,6 +8,19 @@
     scroll-behavior: smooth;
 }
 
+.ContTextTitle {
+    width: 100%;
+}
+
+h1 {
+    color: #e4e4e4;
+    font-size: 1.6em;
+}
+
+h1 span {
+    color: #763bd3;
+}
+
 .princilPort {
     background: #0d0d0d;
     height: 90vh;
@@ -108,6 +121,8 @@ a {
     justify-content: center;
     /* width: 49%; */
 }
+
+
 
 .tittleImg {
     height: 500px;
