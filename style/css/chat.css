@@ -2,7 +2,7 @@
     background: #0d0d0d;
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../img/collage.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../img/collage.webp);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -17,7 +17,7 @@
 @media only screen and (min-width: 950px) {
     .chatCont {
         height: 60vh;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../img/collage2.png);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../img/collage2.webp);
 
     }
 
