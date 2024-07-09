@@ -24,12 +24,6 @@ footer {
     border-radius: 50%;
 }
 
-.socialIcons a:hover {
-    height: 45px;
-    width: 45px;
-    opacity: .7;
-}
-
 .socialIcons a img {
     height: 35px;
     width: 35px;
@@ -61,7 +55,7 @@ footer {
 
 .footerBottom {
     height: 10px;
-    background-color: #000;
+    background-color: rgb(145, 58, 148);
     padding: 20px;
     text-align: center;
     display: flex;
@@ -82,11 +76,6 @@ footer {
 
     }
 
-    .socialIcons a:hover {
-        height: 40px;
-        width: 40px;
-        opacity: .7;
-    }
 
     .socialIcons a img {
         height: 30px;
