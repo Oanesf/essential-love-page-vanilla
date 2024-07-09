@@ -1,6 +1,6 @@
 .chatCont {
     background: #0d0d0d;
-    height: 50vh;
+    min-height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../img/collage.webp);
     background-size: cover;
