@@ -38,16 +38,13 @@
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    box-shadow: 0 60px 60px -60px rgb(104, 42, 106, 0.5);
+    box-shadow: 0 60px 60px -60px rgb(117, 46, 120);
 
 }
 
 .cont-3 .card .imgBx img {
     width: 220px;
-    height: 330px;
-    /* width: 100%; */
-    /* height: 100%; */
+    height: 320px;
     object-fit: cover;
 }
 

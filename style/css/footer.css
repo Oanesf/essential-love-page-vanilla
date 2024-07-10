@@ -30,13 +30,6 @@ footer {
     opacity: .8;
 }
 
-
-.socialIcons a img:hover {
-    height: 30px;
-    width: 30px;
-    opacity: .7;
-}
-
 .footerNav {
     display: flex;
     justify-content: center;
@@ -76,16 +69,9 @@ footer {
 
     }
 
-
     .socialIcons a img {
         height: 30px;
         width: 30px;
-    }
-
-    .socialIcons a img:hover {
-        height: 20px;
-        width: 20px;
-        opacity: .7;
     }
 
 }
