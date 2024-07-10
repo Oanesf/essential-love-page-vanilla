@@ -68,13 +68,6 @@ h1 span {
     width: 90%;
 }
 
-/* 
-.content-title h1 {
-    font-weight: 500;
-    font-size: 2.4em;
-    color: #fff;
-} */
-
 .content-title p {
     font-size: 1em;
     font-weight: 400;
@@ -91,8 +84,8 @@ p span {
 
 .content-btn {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
 .btn-app {
@@ -137,14 +130,6 @@ a {
 
 
 
-/* .titleImg {
-    height: 500px;
-    width: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-} */
-
-
 
 @media only screen and (max-width: 780px) {
 
@@ -183,30 +168,31 @@ a {
         opacity: 1;
     }
 
+    .content-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
     .btn-app {
-        width: 220px;
+        width: 230px;
         height: 55px;
         font-size: 1em;
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* padding: 0px 10px; */
 
     }
 
     .btn-app img {
         padding: 0 7px;
-        width: 45px;
+        width: 47px;
+        /* position: fixed; */
+
+    }
+
+    .btn-app a {
+        font-size: 1.2rem;
     }
 }
-
-/* 
-@media only screen and (max-width: 550px) {
-    .titleImg {
-        height: 340px;
-        width: auto;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    .titleImg {
-        height: 300px;
-        width: auto;
-    }
-} */
