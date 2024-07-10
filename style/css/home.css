@@ -41,7 +41,7 @@ h1 span {
     text-align: center;
     margin-top: 0px;
     gap: 1rem;
-    /* width: 49%; */
+    width: 49%;
 }
 
 .content-title {
@@ -75,7 +75,7 @@ p span {
 }
 
 .content-title p {
-    font-size: 1.1em;
+    font-size: 0.9em;
     font-weight: 400;
     color: #e3e3e3;
     margin-top: 30px;
@@ -147,9 +147,10 @@ a {
 } */
 
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 780px) {
     .contTitle {
         margin-top: 60px;
+        width: 80%;
     }
 
     .princilPort {
