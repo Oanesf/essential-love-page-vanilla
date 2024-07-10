@@ -32,6 +32,10 @@ h1 span {
     justify-content: center;
     align-items: center;
     object-fit: cover;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/img2.webp);
+    background-size: cover;
+    background-position: center;
 }
 
 .contTitle {
