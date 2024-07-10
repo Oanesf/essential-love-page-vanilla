@@ -68,6 +68,8 @@
 
 .cont-3 .card:hover .contentcard {
     bottom: 0;
+    -webkit-backdrop-filter: blur(0.4rem);
+
 }
 
 .cont-3 .card .contentcard .contentBx h3 {
