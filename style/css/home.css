@@ -26,7 +26,7 @@ h1 span {
 
 .princilPort {
     background: #0d0d0d;
-    min-height: 90vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -46,6 +46,7 @@ h1 span {
     margin-top: 0px;
     gap: 1rem;
     width: 49%;
+
 }
 
 .content-title {
@@ -54,7 +55,7 @@ h1 span {
     align-items: center;
     text-align: center;
     justify-content: center;
-    width: 90%;
+    width: 100%;
     min-height: 40vh;
     border: 2px solid #fafafa10;
     border-radius: 10px;
@@ -134,37 +135,31 @@ a {
 
 
 
-.titleImg {
+/* .titleImg {
     height: 500px;
     width: auto;
     margin-left: 10px;
     margin-right: 10px;
-    /* aspect-ratio: 714/151; */
-
-}
-
-/* _________________________ */
-/* @media only screen and (min-width: 850px) {
-    .tittleImg {
-        margin: 10px;
-    }
 } */
 
 
+
 @media only screen and (max-width: 780px) {
-    .contTitle {
-        margin-top: 60px;
-        width: 80%;
-    }
+
 
     .princilPort {
-        padding-top: 55px;
+        /* padding-top: 55px; */
         /* height: 65vh; */
-        height: auto;
+        min-height: 100vh;
         display: flex;
         flex-wrap: wrap;
         /* flex-direction: column; */
-        padding-bottom: 20px;
+        /* padding-bottom: 20px; */
+    }
+
+    .contTitle {
+        margin-top: 60px;
+        width: 100%;
     }
 
     .logoImg {
@@ -189,7 +184,8 @@ a {
     .btn-app {
         width: 220px;
         height: 55px;
-        font-size: 1.05em;
+        font-size: 1em;
+
     }
 
     .btn-app img {
@@ -198,6 +194,7 @@ a {
     }
 }
 
+/* 
 @media only screen and (max-width: 550px) {
     .titleImg {
         height: 340px;
@@ -210,4 +207,4 @@ a {
         height: 300px;
         width: auto;
     }
-}
+} */
