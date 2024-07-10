@@ -57,6 +57,7 @@ h1 span {
     justify-content: center;
     width: 100%;
     min-height: 40vh;
+    min-height: 300px;
     border: 2px solid #fafafa10;
     border-radius: 10px;
     box-shadow: 0px 5px 10px 1px rgb(91, 36, 93, 0.5);
