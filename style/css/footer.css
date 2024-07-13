@@ -74,4 +74,8 @@ footer {
         width: 30px;
     }
 
+    .footerNav ul {
+        gap: 1rem;
+    }
+
 }

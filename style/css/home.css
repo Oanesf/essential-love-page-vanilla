@@ -66,6 +66,20 @@ h1 span {
     box-shadow: 0px 5px 10px 1px rgb(91, 36, 93, 0.5);
 }
 
+.btns-social-link-container {
+    gap: 4px;
+
+}
+
+.btns-apple-android {
+    width: 180px;
+    /* height: 20px; */
+    margin: 2px;
+    /* padding-left: 1%; */
+    /* padding-right: 1%; */
+}
+
+
 .logoImg {
     height: auto;
     width: 90%;
@@ -136,7 +150,8 @@ a {
 
     .content-title {
         width: 85%;
-        height: 30vh;
+        /* min-height: 35vh; */
+        min-height: 200px;
     }
 
     .titleImg {
@@ -153,6 +168,14 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .btns-apple-android {
+        width: 140px;
+        /* height: 20px; */
+        margin: 5px;
+        /* padding-left: 1%; */
+        /* padding-right: 1%; */
     }
 
 
