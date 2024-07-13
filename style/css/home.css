@@ -27,6 +27,8 @@ h1 span {
 .princilPort {
     background: #0d0d0d;
     min-height: 100vh;
+    /* min-height: 670px; */
+    /* min-height: 40em; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -36,6 +38,7 @@ h1 span {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../img/img2.webp);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .contTitle {
@@ -88,30 +91,13 @@ p span {
     gap: 10px;
 }
 
-.btn-app {
-    width: 230px;
-    height: 50px;
-    border: none;
-    color: #000;
-    border-radius: 20px;
-    font-size: 1.3em;
-    cursor: pointer;
-    margin: 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    box-shadow: 0px 5px 10px 1px rgb(79, 32, 80, 0.7)
-}
+
 
 a {
     color: #000;
 }
 
-.btn-app img {
-    padding: 0 7px;
-    width: 50px;
-}
+
 
 .glass-effect {
     background: #fafafa10;
@@ -125,7 +111,6 @@ a {
     align-items: center;
     text-align: center;
     justify-content: center;
-    /* width: 49%; */
 }
 
 
@@ -135,13 +120,9 @@ a {
 
 
     .princilPort {
-        /* padding-top: 55px; */
-        /* height: 65vh; */
         min-height: 100vh;
         display: flex;
         flex-wrap: wrap;
-        /* flex-direction: column; */
-        /* padding-bottom: 20px; */
     }
 
     .contTitle {
@@ -175,24 +156,4 @@ a {
     }
 
 
-    .btn-app {
-        width: 230px;
-        height: 55px;
-        font-size: 1em;
-        /* display: flex; */
-        /* justify-content: space-between; */
-        /* padding: 0px 10px; */
-
-    }
-
-    .btn-app img {
-        padding: 0 7px;
-        width: 47px;
-        /* position: fixed; */
-
-    }
-
-    .btn-app a {
-        font-size: 1.2rem;
-    }
 }
