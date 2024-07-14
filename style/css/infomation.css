@@ -44,7 +44,7 @@
     padding-top: 30px;
     border: 2px solid #fafafa10;
     border-radius: 10px;
-    box-shadow: 10px 100px 100px solid #000;
+    /* box-shadow: 10px 100px 100px solid #000; */
 }
 
 .sectHeart h2 {
