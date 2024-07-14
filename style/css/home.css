@@ -9,6 +9,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    line-height: 23px;
+
+}
+
 .ContTextTitle {
     width: 100%;
 }
@@ -81,6 +86,7 @@ h1 span {
     border: 1px solid;
     border-color: rgb(0, 0, 0);
     border-radius: 7px;
+    box-shadow: 0px 5px 10px 1px rgb(91, 36, 93, 0.5);
 }
 
 

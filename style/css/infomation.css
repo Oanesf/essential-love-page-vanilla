@@ -21,16 +21,11 @@
 }
 
 .heartCont {
-
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/collage3.webp);
-
-
 }
 
 .MoreCont {
-
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/collage5.webp);
-
 }
 
 .sectHeart {
@@ -51,7 +46,7 @@
     font-size: 2.0rem;
     color: #fff;
     font-weight: 500;
-    /* margin-bottom: 20px; */
+    margin-bottom: 10px;
     text-align: center;
 }
 
