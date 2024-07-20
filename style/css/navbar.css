@@ -11,8 +11,6 @@ header {
     justify-content: center;
     justify-content: space-between;
     transition: all .3s ease;
-
-
     position: absolute;
 }
 
