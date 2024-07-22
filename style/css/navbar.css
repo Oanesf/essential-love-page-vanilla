@@ -1,6 +1,4 @@
 header {
-    /* position: fixed; */
-    /* background-color: #0d0d0d; */
     width: 100%;
     top: 0;
     right: 0;
@@ -76,10 +74,9 @@ header {
 
 }
 
-@media (max-width:940px) {
+@media (max-width:840px) {
     header {
         position: fixed;
-        /* background-color: #222; */
         background-color: rgb(61, 25, 62);
         padding: 7px 5%;
         height: 50px;
@@ -100,8 +97,6 @@ header {
         width: 100%;
         min-height: 45vh;
         backdrop-filter: blur(32px);
-        /* background-color: #222222be; */
-        /* background-color: rgba(61, 25, 62, 0.7); */
         background-color: rgba(36, 14, 36, 0.7);
         display: flex;
         flex-direction: column;
@@ -111,7 +106,6 @@ header {
         margin-top: 50px;
         padding-top: 50px;
         -webkit-backdrop-filter: blur(0.4rem);
-
     }
 
     .navlist a {
@@ -120,12 +114,13 @@ header {
         margin: 0px 0px 50px 0px;
         color: #fff;
         font-size: 1rem;
-
     }
 
     .navlist.open {
         right: 0;
         margin-top: 50px;
         backdrop-filter: blur(0.4rem);
+        /* overflow: hidden; */
+
     }
 }
