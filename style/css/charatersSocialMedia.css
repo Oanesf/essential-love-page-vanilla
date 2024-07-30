@@ -137,6 +137,13 @@
     }
 }
 
+@media screen and (max-width: 840px) {
+    .cont-3 h2 {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}
+
 @media screen and (min-width: 1000px) {
 
 

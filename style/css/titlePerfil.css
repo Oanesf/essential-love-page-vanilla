@@ -1,7 +1,7 @@
 .title-cont-sec {
     background: #0d0d0d;
     /* min-height: 50vh; */
-    min-height: 400px;
+    min-height: 270px;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../img/collage.webp);
     background-size: cover;
@@ -9,21 +9,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 40px 20px;
+
+
 }
 
 .sec-title {
-    background: #0d0d0d;
-    width: 90%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 30px;
+    padding: 30px 20px 20px 20px;
     border: 2px solid #fafafa10;
-    border-radius: 10px;
-    /* box-shadow: 10px 100px 100px #000; */
+    border-radius: 15px;
+
+    background: #0d0d0dd1;
+    backdrop-filter: blur(32px);
+    -webkit-backdrop-filter: blur(0.4rem);
 
 }
 
@@ -33,37 +36,34 @@
     font-weight: 500;
     margin-bottom: 10px;
     text-align: center;
+    /* margin: 0 20px; */
 }
 
 .sec-title p {
     font-size: 0.9rem;
     color: #d6d6d6;
     font-weight: 400;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     text-align: center;
-    padding: 12px;
+    padding: 10px;
     padding-left: 10%;
     padding-right: 10%;
 }
 
-@media only screen and (min-width: 950px) {
-    .title-cont-sec {
-        height: 60vh;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../img/collage2.webp);
+@media screen and (min-width: 840px) {
 
-    }
+    /* 
+    .sec-title {
+        width: 60%;
+    } */
 
 }
 
-@media screen and (min-width: 900px) {
+@media only screen and (min-width: 950px) {
+    .title-cont-sec {
+        min-height: 400px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../img/collage2.webp);
 
-    .info-cont {
-        min-height: 60vh;
-        width: 50%;
-    }
-
-    .sec-title {
-        width: 60%;
     }
 
 }

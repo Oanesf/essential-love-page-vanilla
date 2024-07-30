@@ -1,18 +1,20 @@
-/* ___________________________________ */
 .content-2 {
     background: #111;
     display: flex;
     justify-content: center;
-    padding: 50px 0;
+    /* padding-bottom: 50px; */
+    /* padding: 0px 10px 50px 10px; */
+    padding: 0px 0px 50px 0px;
     flex-direction: column;
     align-items: center;
 }
 
 .content-2 h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
     font-size: 2.2rem;
     color: #fff;
     font-weight: 500;
-    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -114,6 +116,13 @@ article:hover img:last-child {
 
     article img:last-child {
         width: 170px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .content-2 h2 {
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
 }
 
