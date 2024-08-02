@@ -10,6 +10,7 @@ header {
     justify-content: space-between;
     transition: all .3s ease;
     position: absolute;
+
 }
 
 .logo {
@@ -80,6 +81,7 @@ header {
         background-color: rgb(61, 25, 62);
         padding: 7px 5%;
         height: 50px;
+        /* margin-top: 50px; */
     }
 
     .nav-right {
@@ -91,7 +93,8 @@ header {
     }
 
     .navlist {
-        position: absolute;
+        /* position: absolute; */
+        position: fixed;
         top: 0;
         right: -100%;
         width: 100%;
