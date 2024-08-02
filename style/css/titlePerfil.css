@@ -1,7 +1,7 @@
 .title-cont-sec {
     background: #0d0d0d;
     /* min-height: 50vh; */
-    min-height: 270px;
+    min-height: 220px;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../img/collage.webp);
     background-size: cover;
@@ -52,10 +52,9 @@
 
 @media screen and (min-width: 840px) {
 
-    /* 
     .sec-title {
-        width: 60%;
-    } */
+        width: 79%;
+    }
 
 }
 

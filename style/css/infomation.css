@@ -1,4 +1,4 @@
-.sectHeartCont {
+.content-infomation {
     background: #0d0d0d;
     display: flex;
 
@@ -24,7 +24,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/collage5.webp);
 }
 
-.sectHeart {
+.heart-info {
     background: #0d0d0dbd;
     width: 96%;
     position: relative;
@@ -32,18 +32,15 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* padding-top: 30px; */
     padding: 30px 10px 10px 10px;
     border: 2px solid #fafafa10;
     border-radius: 10px;
-    min-height: auto;
-    min-height: 150px;
-
+    min-height: 100px;
     backdrop-filter: blur(32px);
     -webkit-backdrop-filter: blur(0.4rem);
 }
 
-.sectHeart h2 {
+.heart-info h2 {
     font-size: 2.0rem;
     color: #fff;
     font-weight: 500;
@@ -51,7 +48,7 @@
     text-align: center;
 }
 
-.sectHeart p {
+.heart-info p {
     font-size: 0.9rem;
     color: #d6d6d6;
     font-weight: 400;
@@ -60,7 +57,6 @@
     padding: 12px;
 }
 
-/* ____________________________________ */
 
 @media screen and (max-width: 840px) {
     .sectHeartCont {
@@ -78,10 +74,11 @@
 
     }
 
-    .info-cont {
+    /* .info-cont {
         min-height: 40vh;
-        /* min-height: 400px; */
-        width: 50%;
+    } */
+    .heart-info {
+        width: 65%;
     }
 
     .heartCont {
@@ -92,22 +89,9 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/collage6.webp);
     }
 
-    .sectHeart {
-        height: 400px;
-    }
-
-    .sectHeart p {
+    .heart-info p {
         font-size: 0.92rem;
         padding-left: 10%;
         padding-right: 10%;
     }
-}
-
-@media screen and (min-width: 1000px) {
-    .sectHeart {
-        width: 90%;
-        min-height: 370px;
-
-    }
-
 }
