@@ -10,18 +10,16 @@ header {
     justify-content: space-between;
     transition: all .3s ease;
     position: absolute;
-
 }
 
 .logo {
     display: flex;
     align-items: center;
     font-size: 28px;
-    color: #fff;
     font-weight: 800;
 }
 
-.logoImgNav {
+.logo-img-nav {
     height: auto;
     width: 200px;
     margin-top: 2px;
@@ -34,21 +32,20 @@ header {
 .navlist a {
     display: inline-block;
     margin: 0 35px;
-    color: #fff;
+    color: var(--nv-clr);
     font-size: 16px;
     font-weight: 500;
     transition: all .3s ease;
 }
 
 .navlist a:hover {
-    text-shadow: 3px 3px 20px #A452A5, -2px 1px 30px #A452A5;
+    text-shadow: var(--nv-txt-hv-shdw)
 }
 
 .nav-right {
     display: flex;
     align-items: center;
     display: none;
-
 }
 
 #menu-icon {
@@ -56,7 +53,6 @@ header {
     cursor: pointer;
     display: none;
 }
-
 
 @media (max-width:1300px) {
     header {
@@ -78,7 +74,7 @@ header {
 @media (max-width:840px) {
     header {
         position: fixed;
-        background-color: rgb(61, 25, 62);
+        background-color: var(--nv-bg-clr);
         padding: 7px 5%;
         height: 50px;
         /* margin-top: 50px; */
@@ -99,8 +95,8 @@ header {
         right: -100%;
         width: 100%;
         min-height: 45vh;
-        backdrop-filter: blur(32px);
-        background-color: rgba(36, 14, 36, 0.7);
+        backdrop-filter: var(--nv-bg-filter);
+        background-color: var(--nv-bg-clr-active);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -108,20 +104,20 @@ header {
         transition: all .4s ease;
         margin-top: 50px;
         padding-top: 50px;
-        -webkit-backdrop-filter: blur(0.4rem);
+        -webkit-backdrop-filter: var(--blur);
     }
 
     .navlist a {
         display: inline-block;
         padding: 0;
         margin: 0px 0px 50px 0px;
-        color: #fff;
+        color: var(--nv-clr);
         font-size: 1.2rem;
     }
 
     .navlist.open {
         right: 0;
         margin-top: 50px;
-        backdrop-filter: blur(0.4rem);
+        backdrop-filter: var(--blur);
     }
 }

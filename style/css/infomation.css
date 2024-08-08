@@ -1,11 +1,10 @@
 .content-infomation {
-    background: #0d0d0d;
+    background: var(--info-cont-bg-clr);
     display: flex;
-
 }
 
 .info-cont {
-    background: #0d0d0d;
+    background: var(--info-cont-bg-clr);
     min-height: 300px;
     width: 100%;
     background-size: cover;
@@ -16,16 +15,13 @@
     padding: 15px;
 }
 
-.heartCont {
+.heart-cont {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/collage3.webp);
 }
 
-.MoreCont {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/collage5.webp);
-}
 
 .heart-info {
-    background: #0d0d0dbd;
+    background: var(--info-bg-clr);
     width: 96%;
     position: relative;
     display: flex;
@@ -33,55 +29,48 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 30px 10px 10px 10px;
-    border: 2px solid #fafafa10;
+    border: var(--cont-border-clr);
     border-radius: 10px;
     min-height: 100px;
-    backdrop-filter: blur(32px);
-    -webkit-backdrop-filter: blur(0.4rem);
+    backdrop-filter: var(--blur-fl);
+    -webkit-backdrop-filter: var(--blur);
 }
 
 .heart-info h2 {
-    font-size: 2.0rem;
-    color: #fff;
+    font-size: var(--info-size-two);
+    color: var(--info-ttl-clr);
     font-weight: 500;
     margin-bottom: 10px;
     text-align: center;
 }
 
 .heart-info p {
-    font-size: 0.9rem;
-    color: #d6d6d6;
+    font-size: var(--info-size-p-two);
+    color: var(--info-clr-p);
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
-    padding: 12px;
+    padding: 6px;
+
 }
 
 
-@media screen and (max-width: 840px) {
-    .sectHeartCont {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
+@media screen and (max-width: 840px) {}
 
 @media screen and (min-width: 840px) {
-    .sectHeartCont {
-        display: flex;
-        flex-wrap: wrap;
-        min-height: 45vh;
 
-    }
 
-    /* .info-cont {
-        min-height: 40vh;
-    } */
     .heart-info {
         width: 65%;
+        padding: 30px 10px 10px 10px;
     }
 
-    .heartCont {
+    .heart-info h2 {
+        font-size: var(--info-ttl-size);
+
+    }
+
+    .heart-cont {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/collage4.webp);
     }
 
@@ -90,8 +79,10 @@
     }
 
     .heart-info p {
-        font-size: 0.92rem;
+        font-size: var(--info-size-p);
         padding-left: 10%;
         padding-right: 10%;
+        padding: 12px;
+
     }
 }

@@ -1,44 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    text-decoration: none;
-    scroll-behavior: smooth;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-    background-color: #0d0d0d;
-}
-
-
-p {
-    line-height: 23px;
-
-}
-
-.ContTextTitle {
-    width: 100%;
-}
-
-h1 {
-    color: #fff;
-    font-size: 1.6em;
-    font-weight: 500;
-    text-align: center;
-}
-
-h1 span {
-    text-shadow: rgb(145, 58, 148) 0px 0px 5px, rgb(201, 80, 205) 0px 0px 10px, rgb(140, 73, 143) 0px 0px 15px, rgb(105, 33, 107) 0px 0px 25px;
-}
-
-.princilPort {
-    background: #0d0d0d;
+.content-header {
+    background: var(--bg-color-cont);
     min-height: 100vh;
-    /* min-height: 670px; */
-    /* min-height: 40em; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -51,7 +13,7 @@ h1 span {
     background-repeat: no-repeat;
 }
 
-.contTitle {
+.cont-title-one {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,14 +33,13 @@ h1 span {
     width: 100%;
     min-height: 40vh;
     min-height: 300px;
-    border: 2px solid #fafafa10;
+    border: var(--cont-border-clr);
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 1px rgb(91, 36, 93, 0.5);
+    box-shadow: var(--box-shadow);
 }
 
 .btns-social-link-container {
     gap: 4px;
-
 }
 
 .btns-apple-android {
@@ -88,7 +49,7 @@ h1 span {
     border: 1px solid;
     border-color: rgb(0, 0, 0);
     border-radius: 7px;
-    box-shadow: 0px 5px 10px 1px rgb(91, 36, 93, 0.5);
+    box-shadow: var(--box-shadow);
 }
 
 
@@ -100,14 +61,14 @@ h1 span {
 .content-title p {
     font-size: 1em;
     font-weight: 400;
-    color: #ffffff;
+    color: var(--text-p-clr);
     margin-top: 10px;
     padding: 0 40px;
 }
 
 p span {
-    text-shadow: rgb(145, 58, 148, 0.7) 0px 0px 5px, rgb(201, 80, 205, 0.7) 0px 0px 10px;
-    color: rgb(255, 255, 255);
+    text-shadow: var(--text-p-span-clr);
+    color: var(--text-p-clr);
 
 }
 
@@ -118,17 +79,10 @@ p span {
 }
 
 
-
-a {
-    color: #000;
-}
-
-
-
 .glass-effect {
-    background: #fafafa10;
-    backdrop-filter: blur(0.4rem);
-    -webkit-backdrop-filter: blur(0.4rem);
+    background: var(--bg-glass);
+    backdrop-filter: var(--blur);
+    -webkit-backdrop-filter: var(--blur);
 }
 
 .hImg {
@@ -139,19 +93,14 @@ a {
     justify-content: center;
 }
 
-
-
 @media only screen and (max-width: 780px) {
-
-
-    .princilPort {
+    .content-header {
         min-height: 100vh;
         display: flex;
         flex-wrap: wrap;
     }
 
-    .contTitle {
-        /* margin-top: 60px; */
+    .cont-title-one {
         width: 100%;
     }
 
@@ -161,7 +110,6 @@ a {
 
     .content-title {
         width: 85%;
-        /* min-height: 35vh; */
         min-height: 200px;
     }
 
@@ -188,9 +136,3 @@ a {
 
 
 }
-
-/* @media only screen and (max-width: 840px) {
-    main {
-        margin-top: 50px;
-    }
-} */

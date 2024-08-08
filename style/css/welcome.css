@@ -1,5 +1,5 @@
 .title-cont-sec {
-    background: #0d0d0d;
+    background: var(--bg-color-cont);
     /* min-height: 50vh; */
     min-height: 220px;
     width: 100%;
@@ -10,8 +10,6 @@
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
-
-
 }
 
 .sec-title {
@@ -20,19 +18,17 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 30px 20px 20px 20px;
-    border: 2px solid #fafafa10;
+    padding: 30px 10px 20px 10px;
+    border: var(--cont-border-clr);
     border-radius: 15px;
-
-    background: #0d0d0dd1;
-    backdrop-filter: blur(32px);
-    -webkit-backdrop-filter: blur(0.4rem);
-
+    background: var(--bg-clr-wlc);
+    backdrop-filter: var(--blur-fl);
+    -webkit-backdrop-filter: var(--blur);
 }
 
 .sec-title h1 {
-    font-size: 2.0rem;
-    color: #fff;
+    font-size: 1.6rem;
+    color: var(--title-clr);
     font-weight: 500;
     margin-bottom: 10px;
     text-align: center;
@@ -41,28 +37,34 @@
 
 .sec-title p {
     font-size: 0.9rem;
-    color: #d6d6d6;
+    color: var(--wlc-p-clr);
     font-weight: 400;
-    /* margin-bottom: 20px; */
     text-align: center;
-    padding: 10px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 5px 0 0 0;
 }
 
 @media screen and (min-width: 840px) {
-
     .sec-title {
-        width: 79%;
+        width: 75%;
+        padding: 30px 20px 20px 20px;
     }
 
+    .sec-title h1 {
+        font-size: 2.0rem;
+    }
+
+    .sec-title p {
+        font-size: 0.9rem;
+        padding: 10px;
+        padding-left: 10%;
+        padding-right: 10%;
+
+    }
 }
 
 @media only screen and (min-width: 950px) {
     .title-cont-sec {
         min-height: 400px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../img/collage2.webp);
-
     }
-
 }
