@@ -55,8 +55,13 @@ footer {
 
 }
 
+
 .footer-nav ul li a:hover {
     text-shadow: var(--nv-txt-hv-shdw)
+}
+
+.cont-btn-scale {
+    scale: 0.95;
 }
 
 .footer-bottom {
@@ -77,15 +82,15 @@ footer {
 
 @media (max-width:840px) {
     .social-icons a {
-        height: 45px;
-        width: 45px;
-        margin: 5px;
+        height: 40px;
+        width: 40px;
+        margin: 4px;
 
     }
 
     .social-icons a img {
-        height: 27px;
-        width: 27px;
+        height: 23px;
+        width: 23px;
     }
 
     .footer-nav ul {

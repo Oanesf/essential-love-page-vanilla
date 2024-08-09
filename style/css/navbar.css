@@ -101,7 +101,7 @@ header a img {
         top: 0;
         right: -100%;
         width: 100%;
-        min-height: 45vh;
+        min-height: 100vh;
         backdrop-filter: var(--nv-bg-filter);
         background-color: var(--nv-bg-clr-active);
         display: flex;
@@ -112,6 +112,7 @@ header a img {
         margin-top: 50px;
         padding-top: 50px;
         -webkit-backdrop-filter: var(--blur);
+        opacity: 0;
     }
 
     .navlist a {
@@ -126,5 +127,7 @@ header a img {
         right: 0;
         margin-top: 50px;
         backdrop-filter: var(--blur);
+        opacity: 1;
+
     }
 }
