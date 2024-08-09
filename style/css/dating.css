@@ -184,6 +184,21 @@ article:hover img:last-child {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .content-2 {
+        padding: 0px 5px 17px 5px;
+    }
+
+    article {
+        width: 105px;
+        border-radius: 5px;
+    }
+
+    article img:last-child {
+        width: 105px;
+    }
+}
+
 @media screen and (min-width: 840px) {
     .content-2 p {
         padding-left: 20%;
