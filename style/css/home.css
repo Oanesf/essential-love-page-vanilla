@@ -7,7 +7,7 @@
     /* align-items: center; */
     object-fit: cover;
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../img/img2.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/img2.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,13 +56,22 @@
 .btns-apple-android {
     width: 180px;
     margin: 2px;
-    background-color: white;
     border: 1px solid;
-    border-color: rgb(0, 0, 0);
     border-radius: 7px;
     box-shadow: var(--box-shadow);
 }
 
+
+.btns-andios-blck {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+}
+
+.btns-andios-wht {
+    background-color: white;
+    border-color: rgb(0, 0, 0);
+
+}
 
 .logo-img {
     height: auto;
