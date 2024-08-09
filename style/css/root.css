@@ -26,7 +26,7 @@
   --dt-size-two: 1.6rem;
   --dt-clr-p: #d6d6d6;
   --dt-size-p: 0.9rem;
-  --dt-size-p-two: 0.8rem;
+  --dt-size-p-two: 0.87rem;
   --dt-bx-shdw: 0 60px 60px -60px rgba(149, 0, 255, 0.5);
 
   --info-cont-bg-clr: #0d0d0d;
@@ -43,17 +43,20 @@
   --ch-ttl-size: 2.2rem;
   --ch-size-two: 1.7rem;
   --ch-clr-p: #d6d6d6;
-  --info-size-p: 0.9rem;
-  --ch-size-p-two: 0.8rem;
+  --ch-size-p: 0.9rem;
+  --ch-size-p-two: 0.87rem;
   --ch-bx-shdw: 0 60px 60px -60px rgba(149, 0, 255, 0.5);
 
-  --ch-bg-clr: #111;
-  --ch-ttl-clr: #fff;
-  --ch-ttl-size: 2.2rem;
-  --ch-size-two: 1.7rem;
-  --ch-clr-p: #d6d6d6;
-  --info-size-p: 0.9rem;
-  --ch-size-p-two: 0.8rem;
+
+  --ft-bg-clr: #111;
+  --ft-circle-clr: #fff;
+  --ft-txt-hv-shdw: rgb(61, 25, 62);
+  --ft-a-clr: #fff;
+  --ft-size-a: 0.8rem;
+
+  --ft-bt-bg-cl: rgb(61, 25, 62);
+  --ft-size-p: 0.85rem;
+
 }
 
 * {

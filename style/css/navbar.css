@@ -19,11 +19,18 @@ header {
     font-weight: 800;
 }
 
+header a img {
+    height: auto;
+    width: 200px;
+    margin-top: 2px;
+}
+
 .logo-img-nav {
     height: auto;
     width: 200px;
     margin-top: 2px;
 }
+
 
 .navlist {
     display: flex;
@@ -39,7 +46,7 @@ header {
 }
 
 .navlist a:hover {
-    text-shadow: var(--nv-txt-hv-shdw)
+    text-shadow: var(--ft-clr-shadow)
 }
 
 .nav-right {
