@@ -32,7 +32,7 @@
     position: relative;
     width: 220px;
     height: 320px;
-    margin: 20px;
+    margin: 10px;
     overflow: hidden;
     box-sizing: 0 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
@@ -131,6 +131,14 @@
 }
 
 @media screen and (max-width: 840px) {
+
+    .cont-3 .card {
+        position: relative;
+        width: 220px;
+        height: 320px;
+        margin: 8px;
+    }
+
     .cont-3 h2 {
         padding-top: 30px;
         padding-bottom: 0px;
