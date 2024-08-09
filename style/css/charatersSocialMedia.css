@@ -198,6 +198,33 @@
     .cont-3 .card .contentcard .contentBx h3 {
         font-size: var(--ch-tl-size-card-two);
     }
+
+    .social-svg {
+        height: 31px;
+        width: 31px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .cont-3 .card {
+        width: 100px;
+        height: 155px;
+        border-radius: 8px;
+    }
+
+    .cont-3 .card .imgBx img {
+        width: 100px;
+        height: 155px;
+    }
+
+    .cont-3 .card .contentcard {
+        bottom: -85px;
+        height: 85px;
+    }
+
+    .cont-3 .card .contentcard .contentBx h3 {
+        font-size: var(--ch-tl-size-card-tree);
+    }
 }
 
 @media screen and (min-width: 840px) {
