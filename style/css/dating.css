@@ -2,7 +2,7 @@
     background: var(--dt-bg-clr);
     display: flex;
     justify-content: center;
-    padding: 0px 0px 50px 0px;
+    padding: 0px 10px 50px 10px;
     flex-direction: column;
     align-items: center;
 }
@@ -97,14 +97,22 @@ article:hover img:last-child {
     transform: translateY(10%);
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 840px) {
+    .content-2 h2 {
+        padding-top: 30px;
+        padding-bottom: 0px;
+        font-size: var(--dt-size-two);
+    }
+
+    .content-2 p {
+        font-size: var(--dt-size-p-two);
+    }
+}
+
+@media screen and (max-width: 840px) {
+
     .contet-dating {
-        width: auto;
-        height: auto;
         gap: 1rem;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
     }
 
     article {
@@ -116,15 +124,63 @@ article:hover img:last-child {
     }
 }
 
-@media screen and (max-width: 840px) {
-    .content-2 h2 {
-        padding-top: 30px;
-        padding-bottom: 0px;
-        font-size: var(--dt-size-two);
+@media screen and (max-width: 640px) {
+    .content-2 {
+        padding: 0px 10px 30px 10px;
     }
 
-    .content-2 p {
-        font-size: var(--dt-size-p-two);
+    article {
+        width: 160px;
+        border-radius: 10px;
+    }
+
+    article img:last-child {
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .content-2 {
+        padding: 0px 10px 27px 10px;
+    }
+
+    article {
+        width: 145px;
+        border-radius: 10px;
+    }
+
+    article img:last-child {
+        width: 145px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .content-2 {
+        padding: 0px 10px 25px 10px;
+    }
+
+    article {
+        width: 130px;
+        border-radius: 10px;
+    }
+
+    article img:last-child {
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .content-2 {
+        padding: 0px 10px 22px 10px;
+    }
+
+    article {
+        width: 110px;
+        border-radius: 5px;
+    }
+
+    article img:last-child {
+        width: 110px;
     }
 }
 
