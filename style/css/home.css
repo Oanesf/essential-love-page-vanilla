@@ -11,7 +11,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+
 }
 
 .cont-grdnt {
@@ -137,5 +137,11 @@ p span {
         margin: 5px;
     }
 
+}
+
+@media only screen and (min-width: 840px) {
+    .content-header {
+        background-attachment: fixed;
+    }
 
 }
