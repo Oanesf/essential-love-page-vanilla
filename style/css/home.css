@@ -12,6 +12,8 @@
     background-position: center;
     background-repeat: no-repeat;
 
+    background-attachment: scroll;
+    /* background-attachment: fixed; */
 }
 
 .cont-grdnt {
@@ -141,6 +143,7 @@ p span {
 
 @media only screen and (min-width: 840px) {
     .content-header {
+        background-attachment: scroll;
         background-attachment: fixed;
     }
 
