@@ -195,9 +195,13 @@
         height: 95px;
     }
 
+    .cont-3 .card .contentcard .contentBx h3 {
+        font-size: var(--ch-tl-size-card-two);
+    }
+
     .social-svg {
-        height: 34px;
-        width: 34px;
+        height: 33px;
+        width: 33px;
     }
 }
 
