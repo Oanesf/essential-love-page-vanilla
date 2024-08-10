@@ -177,6 +177,30 @@
     }
 }
 
+@media screen and (max-width: 560px) {
+    .cont-3 .card {
+        width: 130px;
+        height: 200px;
+        margin: 5px;
+        border-radius: 15px;
+    }
+
+    .cont-3 .card .imgBx img {
+        width: 130px;
+        height: 200px;
+    }
+
+    .cont-3 .card .contentcard {
+        bottom: -100px;
+        height: 100px;
+    }
+
+    .social-svg {
+        height: 34px;
+        width: 34px;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .cont-3 .card {
         width: 108px;
