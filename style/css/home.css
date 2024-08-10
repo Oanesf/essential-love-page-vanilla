@@ -108,6 +108,18 @@ p span {
     -webkit-backdrop-filter: var(--blur);
 }
 
+@media only screen and (max-width: 840px) {
+
+    .cont-title-one {
+        width: 80%;
+    }
+
+    .content-title {
+        width: 95%;
+        min-height: 260px;
+    }
+}
+
 
 @media only screen and (max-width: 780px) {
     .content-header {
@@ -117,7 +129,7 @@ p span {
     }
 
     .cont-title-one {
-        width: 100%;
+        width: 90%;
     }
 
     .logo-img {
@@ -126,7 +138,7 @@ p span {
 
     .content-title {
         width: 95%;
-        min-height: 200px;
+        min-height: 235px;
     }
 
     .content-btn {
