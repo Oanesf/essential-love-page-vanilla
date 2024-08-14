@@ -15,7 +15,6 @@
   --nv-clr: #fff;
   --nv-txt-hv-shdw: 3px 3px 20px #A452A5, -2px 1px 30px #A452A5;
   --nv-bg-filter: blur(32px);
-  /* --nv-bg-clr-active: rgba(36, 14, 36, 0.7); */
   --nv-bg-clr-active: rgba(36, 14, 36, 0.8);
 
   --bg-clr-wlc: #0d0d0dd1;
@@ -79,6 +78,10 @@
 
 body {
   background-color: var(--bg-color-page);
+}
+
+main {
+  position: absolute;
 }
 
 p {
