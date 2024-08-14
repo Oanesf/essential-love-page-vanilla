@@ -76,6 +76,7 @@
 
     .heart-info p {
         font-size: var(--info-size-p);
+        width: 100%;
         padding-left: 10%;
         padding-right: 10%;
         padding: 12px;

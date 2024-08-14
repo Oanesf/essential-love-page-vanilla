@@ -27,8 +27,6 @@
     padding-right: 5%;
 }
 
-/* _____ dating _____ */
-
 .contet-dating {
     width: auto;
     height: auto;
@@ -42,7 +40,6 @@ article {
     position: relative;
     width: 250px;
     transition: all .3s ease;
-    /* border: 7px solid #333; */
     border-radius: 15px;
     margin-bottom: 30px;
 }
@@ -97,6 +94,34 @@ article:hover img:last-child {
     transform: translateY(10%);
 }
 
+@media screen and (max-width: 900px) {
+    .contet-dating {
+        gap: 1rem;
+    }
+
+    article {
+        width: 230px;
+    }
+
+    article img:last-child {
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .contet-dating {
+        gap: 1rem;
+    }
+
+    article {
+        width: 210px;
+    }
+
+    article img:last-child {
+        width: 210px;
+    }
+}
+
 @media screen and (max-width: 840px) {
     .content-2 h2 {
         padding-top: 30px;
@@ -107,20 +132,28 @@ article:hover img:last-child {
     .content-2 p {
         font-size: var(--dt-size-p-two);
     }
-}
-
-@media screen and (max-width: 840px) {
 
     .contet-dating {
         gap: 1rem;
     }
 
     article {
-        width: 170px;
+        width: 200px;
     }
 
     article img:last-child {
-        width: 170px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+    article {
+        width: 180px;
+    }
+
+    article img:last-child {
+        width: 180px;
     }
 }
 
@@ -139,7 +172,7 @@ article:hover img:last-child {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 570px) {
     .content-2 {
         padding: 0px 10px 27px 10px;
     }
@@ -154,7 +187,7 @@ article:hover img:last-child {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 510px) {
     .content-2 {
         padding: 0px 10px 25px 10px;
     }
