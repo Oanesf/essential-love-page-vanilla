@@ -43,6 +43,7 @@ article {
     transition: all .3s ease;
     border-radius: 15px;
     margin-bottom: 30px;
+    z-index: 500;
 }
 
 article img:first-child {
