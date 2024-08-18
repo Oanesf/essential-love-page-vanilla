@@ -2,7 +2,7 @@
     background: var(--bg-color-cont);
     min-height: 220px;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../../img/collage.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/collage.webp);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -75,7 +75,7 @@
 
 @media only screen and (min-width: 950px) {
     .title-cont-sec {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../img/collage2.webp);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/collage2.webp);
     }
 
     .sec-title {

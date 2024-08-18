@@ -6,13 +6,13 @@ menu.addEventListener("click", () => {
   menuLinks.classList.toggle("open");
 });
 
-// const bgImg = document.querySelector(".bg-img");
-// window.addEventListener("scroll", (e) => {
-//   let sizeScroll = window.scrollY;
+const bgImg = document.querySelector(".bg-img");
+window.addEventListener("scroll", (e) => {
+  let sizeScroll = window.scrollY;
 
-//   if (sizeScroll >= 1150) {
-//     bgImg.classList.add("bghidden");
-//   } else {
-//     bgImg.classList.remove("bghidden");
-//   }
-// });
+  if (sizeScroll >= 1150) {
+    bgImg.classList.add("bghidden");
+  } else {
+    bgImg.classList.remove("bghidden");
+  }
+});

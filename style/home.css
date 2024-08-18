@@ -2,11 +2,12 @@
     position: fixed;
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/img2.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/img2.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
+    z-index: 0;
 }
 
 .bghidden {
