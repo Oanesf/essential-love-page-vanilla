@@ -9,7 +9,6 @@ menu.addEventListener("click", () => {
 const bgImg = document.querySelector(".bg-img");
 window.addEventListener("scroll", (e) => {
   let sizeScroll = window.scrollY;
-
   if (sizeScroll >= 1150) {
     bgImg.classList.add("bghidden");
   } else {
